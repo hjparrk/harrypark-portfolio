@@ -19,6 +19,12 @@ export const metadata: Metadata = {
   title: 'Harry Park SWE',
   description:
     'Hi, this is Harry Park, a software engineer based in Sydney, Australia.',
+  openGraph: {
+    title: 'Harry Park SWE',
+    description:
+      'Hi, this is Harry Park, a software engineer based in Sydney, Australia.',
+    images: ['/thumbnail.png'],
+  },
 };
 
 export default async function RootLayout({

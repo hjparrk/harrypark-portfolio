@@ -5,6 +5,10 @@
 @theme {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  --color-light: oklch(0.929 0.013 255.508);
+  --color-dark: oklch(0.208 0.042 265.755);
+  --color-highlight: oklch(0.6 0.118 184.704);
 }
 
 :root {

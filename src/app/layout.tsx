@@ -3,7 +3,6 @@ import { cookies } from 'next/headers';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import { ThemeData } from '@/utils/types';
-import GlobalLayout from '@/components/layouts/global-layout';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -40,9 +39,15 @@ export default async function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {/* GLOBAL LAYOUT */}
-        <GlobalLayout theme={theme} />
-        {children}
+        <div className='bg-light text-dark selection:text-light selection:bg-highlight dark:bg-dark dark:text-light dark:selection:bg-highlight leading-relaxed antialiased'>
+          <div className='min-h-screen max-w-7xl'>
+            <div className='px-6 py-12 md:px-12 md:py-16 lg:py-0'>
+              <div className='relative flex flex-col gap-2 lg:flex-row'>
+                {children}
+              </div>
+            </div>
+          </div>
+        </div>
       </body>
     </html>
   );

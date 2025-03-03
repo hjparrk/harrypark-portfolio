@@ -1,7 +1,6 @@
 import {
   BsGithub,
   BsLinkedin,
-  BsFiletypePdf,
   BsThreeDots,
   BsSunFill,
   BsPersonWorkspace,

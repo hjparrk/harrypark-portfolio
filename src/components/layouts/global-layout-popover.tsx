@@ -15,7 +15,7 @@ export default function GlobalLayoutPopover() {
     <div className='relative '>
       <Icons.Sidebar onClick={togglePopover} className='sm:hidden' />
       {isOpen && (
-        <div className='absolute top-10 right-0 sm:hidden flex flex-col gap-2 border border-gray-300 rounded-lg p-2 dark:bg-gray-800 dark:text-white'>
+        <div className='absolute top-10 right-0 sm:hidden flex flex-col gap-2 border border-gray-300 rounded-lg p-2 bg-white text-black dark:bg-gray-800 dark:text-white'>
           <Link href={'/'}>About</Link>
           <Link href={'/'}>Resume</Link>
           <Link href={'/'}>Portfolio</Link>

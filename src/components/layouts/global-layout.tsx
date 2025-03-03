@@ -7,7 +7,7 @@ import GlobalLayoutPopover from './global-layout-popover';
 
 export default function GlobalLayout({ theme }: { theme: ThemeData }) {
   return (
-    <nav className='flex items-center justify-between h-12 py-4 px-6 sm:px-10 dark:bg-gray-800 dark:text-white'>
+    <nav className='flex items-center justify-between h-12 py-4 px-6 sm:px-10 bg-white text-black dark:bg-gray-800 dark:text-white'>
       {/* LOGO */}
       <Link
         href={'/'}

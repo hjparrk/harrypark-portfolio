@@ -1,8 +1,7 @@
 import type { Metadata } from 'next';
-import { cookies } from 'next/headers';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
-import { ThemeData } from '@/utils/types';
+import GlobalLayout from '@/components/global-layout';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -26,28 +25,17 @@ export const metadata: Metadata = {
   },
 };
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const cookieStore = await cookies();
-  const theme = (cookieStore.get('theme')?.value ?? 'light') as ThemeData;
-
   return (
-    <html lang='en' data-theme={theme}>
+    <html lang='en'>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className='bg-light text-dark selection:text-light selection:bg-highlight dark:bg-dark dark:text-light dark:selection:bg-highlight leading-relaxed antialiased'>
-          <div className='min-h-screen max-w-7xl'>
-            <div className='px-6 py-12 md:px-12 md:py-16 lg:py-0'>
-              <div className='relative flex flex-col gap-2 lg:flex-row'>
-                {children}
-              </div>
-            </div>
-          </div>
-        </div>
+        <GlobalLayout>{children}</GlobalLayout>
       </body>
     </html>
   );

@@ -29,7 +29,7 @@ export default function useActiveSection() {
         if (section) observer.unobserve(section);
       });
     };
-  }, []);
+  }, [SECTION_IDS]);
 
   return '#' + activeSection;
 }

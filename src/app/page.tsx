@@ -1,7 +1,7 @@
-import Header from '@/components/header/header';
-import About from '@/components/main/about';
-import MockMain from '@/components/main/mock-main';
 import { Fragment } from 'react';
+
+import Header from '@/components/header/header';
+import MainContent from '@/components/main/main-content';
 
 export default function Home() {
   return (
@@ -10,12 +10,7 @@ export default function Home() {
       <Header />
 
       {/* Main Content */}
-      <main className='pt-24 lg:w-[55%] lg:py-24'>
-        <div className='flex flex-col space-y-32'>
-          <About />
-          <MockMain />
-        </div>
-      </main>
+      <MainContent />
     </Fragment>
   );
 }

@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 
-export default function MockMain() {
+export default function Mock() {
   return (
     <Fragment>
       <h1 id='experience' className='lg:scroll-mt-24'>

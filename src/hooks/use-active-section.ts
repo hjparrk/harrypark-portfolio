@@ -1,10 +1,13 @@
-import { links } from '@/components/header/header-data';
-import { useEffect, useState } from 'react';
-
-const SECTION_IDS = links.map((link) => link.href.replace('#', ''));
+import links from '@/data/links';
+import { useEffect, useMemo, useState } from 'react';
 
 export default function useActiveSection() {
   const [activeSection, setActiveSection] = useState<string>('');
+
+  const SECTION_IDS = useMemo(
+    () => links.map((link) => link.href.replace('#', '')),
+    [links]
+  );
 
   useEffect(() => {
     const observer = new IntersectionObserver(

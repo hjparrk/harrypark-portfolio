@@ -1,6 +1,6 @@
 import { Icons } from '@/utils/icons';
 
-export const links = [
+const links = [
   { href: '#about', label: 'ABOUT', icon: <Icons.About /> },
   {
     href: '#experience',
@@ -10,3 +10,5 @@ export const links = [
   { href: '#projects', label: 'PROJECTS', icon: <Icons.Projects /> },
   { href: '#skills', label: 'SKILLS', icon: <Icons.Skills /> },
 ];
+
+export default links;

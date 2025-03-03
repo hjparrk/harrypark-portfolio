@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import useActiveSection from '@/hooks/use-active-section';
-import { links } from './header-data';
+import links from '@/data/links';
 
 export default function Navigation() {
   const activeSection = useActiveSection();

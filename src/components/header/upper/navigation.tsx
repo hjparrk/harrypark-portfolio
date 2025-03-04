@@ -9,7 +9,7 @@ export default function Navigation() {
 
   return (
     <nav className='mt-16 hidden lg:block'>
-      <ul className='flex flex-col space-y-2'>
+      <ul className='flex flex-col space-y-2 max-w-60'>
         {links.map((link) => (
           <Link
             key={link.href}
@@ -20,6 +20,11 @@ export default function Navigation() {
                 : 'opacity-40 hover:opacity-70'
             } `}
           >
+            <span
+              className={`border-t border-gray-400 transition-all duration-200 ${
+                activeSection === link.href ? 'w-36' : 'w-20'
+              }`}
+            />
             <span className='text-xs font-bold tracking-widest'>
               {link.label}
             </span>

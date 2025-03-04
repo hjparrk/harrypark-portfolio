@@ -9,7 +9,7 @@ export default async function PersonalSites() {
   const theme = (cookieStore.get('theme')?.value ?? 'system') as ThemeData;
 
   return (
-    <ul className='flex space-x-5 items-baseline mt-5'>
+    <ul className='flex space-x-5 items-center mt-5'>
       <Link href={'https://github.com/hjparrk'} target='_blank'>
         <Icons.Github className='h-6 w-6' />
       </Link>

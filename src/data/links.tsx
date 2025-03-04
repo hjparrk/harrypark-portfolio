@@ -1,6 +1,7 @@
 import { Icons } from '@/utils/icons';
+import { LinkData } from '@/utils/types';
 
-const links = [
+const links: LinkData[] = [
   { href: '#about', label: 'ABOUT', icon: <Icons.About /> },
   {
     href: '#experience',

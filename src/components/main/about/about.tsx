@@ -1,3 +1,5 @@
+import StickyHeader from '../common/sticky-header';
+
 function Highlight({ children }: { children: string }) {
   return (
     <strong className='text-dark/90 dark:text-light/90'>{children}</strong>
@@ -8,8 +10,9 @@ export default function About() {
   return (
     <section
       id='about'
-      className='text-dark/70 dark:text-light/70 flex flex-col space-y-2 lg:scroll-mt-24'
+      className='relative text-dark/70 dark:text-light/70 flex flex-col space-y-2 lg:scroll-mt-24'
     >
+      <StickyHeader label={'about'} />
       <p>
         I recently graduated with a{' '}
         <Highlight>Bachelor of Computing (Computer Science major)</Highlight>{' '}

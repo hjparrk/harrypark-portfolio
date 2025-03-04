@@ -9,7 +9,7 @@ export default function Navigation() {
 
   return (
     <nav className='mt-16 hidden lg:block'>
-      <ul className='flex flex-col space-y-2 max-w-60'>
+      <ol className='flex flex-col space-y-2 max-w-60'>
         {links.map((link) => (
           <Link
             key={link.href}
@@ -31,7 +31,7 @@ export default function Navigation() {
             {link.icon}
           </Link>
         ))}
-      </ul>
+      </ol>
     </nav>
   );
 }

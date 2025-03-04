@@ -47,7 +47,7 @@ function ExperienceCard({ experience }: { experience: ExperienceData }) {
             {skills.map((skill, index) => (
               <h3
                 key={`experience-skill-${index}`}
-                className='py-0.5 px-1 border border-light/50 rounded-xl'
+                className='py-0.5 px-1 border border-light/50 dark:border-dark/50 rounded-xl'
               >
                 {skill}
               </h3>

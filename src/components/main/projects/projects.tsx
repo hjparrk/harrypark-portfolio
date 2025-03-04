@@ -2,6 +2,7 @@ import { Icons } from '@/utils/icons';
 import { ProjectData } from '@/utils/types';
 import Link from 'next/link';
 import { Fragment, ReactNode } from 'react';
+import StickyHeader from '../common/sticky-header';
 
 const projects: ProjectData[] = [
   {
@@ -103,7 +104,8 @@ function ProjectCard({ project }: { project: ProjectData }) {
 
 export default function Projects() {
   return (
-    <section id='projects' className='lg:scroll-mt-24'>
+    <section id='projects' className='relative lg:scroll-mt-24'>
+      <StickyHeader label={'projects'} />
       {projects.map((project, index) => (
         <ProjectCard key={`projects-${index}`} project={project} />
       ))}

@@ -11,6 +11,7 @@ import {
   BsFillMoonStarsFill,
   BsAlphabet,
   BsArrowUpRight,
+  BsBoxArrowUpRight,
 } from 'react-icons/bs';
 
 import { DiJava, DiRedis } from 'react-icons/di';
@@ -37,6 +38,7 @@ export const Icons = {
   Github: BsGithub,
   LinkedIn: BsLinkedin,
   External: BsArrowUpRight,
+  GoTo: BsBoxArrowUpRight,
   Sidebar: BsThreeDots,
   System: BsTvFill,
   Sun: BsSunFill,

@@ -1,7 +1,7 @@
 import About from './about/about';
 import Experience from './experience/experience';
 import MainContentLayout from './main-content-layout';
-import Mock from './mock/mock';
+import Projects from './projects/projects';
 import Skills from './skills/skills';
 
 export default function MainContent() {
@@ -13,8 +13,8 @@ export default function MainContent() {
       {/* Experience */}
       <Experience />
 
-      {/* Mock Sections */}
-      <Mock />
+      {/* Projects */}
+      <Projects />
 
       {/* Skills */}
       <Skills />

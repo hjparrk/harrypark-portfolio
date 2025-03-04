@@ -33,12 +33,12 @@ function ExperienceCard({ experience }: { experience: ExperienceData }) {
 
         {/* Details */}
         <div className='col-span-7'>
-          <h1 className='font-semibold opacity-90'>{title}</h1>
+          <h1 className='font-semibold opacity-90 text-lg'>{title}</h1>
           <h3 className='mt-0.5 opacity-70'>{team}</h3>
           {contributions.map((contribution, index) => (
             <p
               key={`experience-contribution-${index}`}
-              className='mt-2 text-sm opacity-80'
+              className='mt-3 text-sm opacity-80'
             >
               • {contribution}
             </p>
@@ -47,7 +47,7 @@ function ExperienceCard({ experience }: { experience: ExperienceData }) {
             {skills.map((skill, index) => (
               <h3
                 key={`experience-skill-${index}`}
-                className='py-0.5 px-1 border border-dark/50 dark:border-light/50 rounded-xl'
+                className='py-0.5 px-1.5 border border-dark/50 dark:border-light/50 rounded-xl'
               >
                 {skill}
               </h3>

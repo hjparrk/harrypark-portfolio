@@ -15,3 +15,11 @@ export type ExperienceData = {
   contributions: string[];
   skills: string[];
 };
+
+export type ProjectData = {
+  title: string;
+  description: string;
+  details?: string[];
+  skills: string[];
+  link?: string;
+};

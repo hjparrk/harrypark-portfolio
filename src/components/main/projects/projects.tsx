@@ -20,7 +20,7 @@ const projects: ProjectData[] = [
     title: 'Delivery Service System',
     description:
       'This project is a Spring Boot-based delivery service that includes RabbitMQ for order processing and SSE (Server-Sent Events) for real-time notifications. Users can place orders, and administrators can monitor order statuses in real-time.',
-    skills: ['Rabbit MQ', 'JPA', 'Kafka', 'Redis', 'Resilience4j', 'JMeter'],
+    skills: ['Spring Boot', 'JPA', 'RabbitMQ', 'SSE'],
     link: 'https://github.com/hjparrk/delivery-spring-boot',
   },
   {

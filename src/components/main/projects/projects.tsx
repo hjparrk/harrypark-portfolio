@@ -6,6 +6,26 @@ import StickyHeader from '../common/sticky-header';
 
 const projects: ProjectData[] = [
   {
+    title: 'Trecareer – Your Ultimate Job Application Tracker',
+    description:
+      'Trecareer is a meticulously crafted job application tracking system designed to streamline the job search process and optimise career management. Powered by Supabase on the backend and developed with cutting-edge web technologies like Next.js and TailwindCSS, Trecareer empowers users to stay organised and informed throughout their job application journey.',
+    details: [
+      'Monitor your job applications with detailed statuses, from "Not Started" to "Interview Scheduled" and beyond',
+      'Seamlessly update and manage application data with immediate feedback and error handling.',
+      'Dynamically track progress, set priorities, and manage applications all in one place.',
+      'Enjoy hassle-free account creation and secure login using popular authentication providers.',
+    ],
+    skills: [
+      'Next.js (v15)',
+      'TailwindCSS',
+      'Shadcn/ui',
+      'Supabase',
+      'Vercel',
+      'OAuth 2.0',
+    ],
+    link: 'https://trecareer-hjparrks-projects.vercel.app/',
+  },
+  {
     title: 'Coupon Issuance System',
     description:
       'Promotion Service is a coupon issuance service designed with a microservices architecture (MSA) approach. This project was initiated to gain hands-on experience by directly applying key technologies and to build a scalable and distributed system capable of handling high traffic loads.',

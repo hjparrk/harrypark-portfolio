@@ -14,30 +14,24 @@ export default function About() {
     >
       <StickyHeader label={'about'} />
       <p>
-        I recently graduated with a{' '}
-        <Highlight>Bachelor of Computing (Computer Science major)</Highlight>{' '}
-        from <Highlight>The University of Sydney</Highlight>, where I developed
-        a strong foundation in{' '}
-        <Highlight>
-          algorithms, data structures and full-stack development
-        </Highlight>
-        . In my final three semesters, I maintained a{' '}
-        <Highlight>WAM above 80</Highlight>, demonstrating consistent academic
-        excellence.
+        I recently completed a Bachelor of Computing with a major in Computer
+        Science at the University of Sydney. During my studies, I built a solid
+        foundation in algorithms, data structures, and full-stack development,
+        consistently maintaining a WAM above 80 in the latter half of my course.
       </p>
       <p>
-        I have a keen interest in system design, particularly in{' '}
-        <Highlight>
-          building scalable, high-performance, and resilient architectures
-        </Highlight>
-        . My passion lies in developing distributed systems that efficiently
-        handle large-scale traffic, ensuring fault tolerance and optimized
-        resource utilization.
+        I have a keen interest in both front-end and back-end development. I
+        enjoy creating intuitive and engaging user interfaces while also
+        designing scalable and resilient systems that can handle large-scale
+        traffic efficiently. I'm particularly passionate about system design and
+        distributed systems, focusing on solutions that ensure fault tolerance
+        and make the most of available resources.
       </p>
       <p>
-        Beyond academics, I thrive on solving complex engineering challenges,
-        continuously improving system efficiency, and leveraging the latest
-        technologies to build robust and scalable applications.
+        Outside of academics, I’m driven by the challenge of solving complex
+        engineering problems. I take pride in improving system performance and
+        leveraging modern technologies to build practical, scalable applications
+        that offer exceptional user experiences.
       </p>
     </section>
   );

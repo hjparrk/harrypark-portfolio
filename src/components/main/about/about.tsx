@@ -14,16 +14,26 @@ export default function About() {
     >
       <StickyHeader label={'about'} />
       <p>
-        I recently completed a Bachelor of Computing with a major in Computer
-        Science at the University of Sydney. During my studies, I built a solid
-        foundation in algorithms, data structures, and full-stack development,
-        consistently maintaining a WAM above 80 in the latter half of my course.
+        I recently completed a{' '}
+        <Highlight>
+          Bachelor of Computing with a major in Computer Science at the
+          University of Sydney
+        </Highlight>
+        . During my studies, I built a solid foundation in{' '}
+        <Highlight>
+          algorithms, data structures, and full-stack development
+        </Highlight>
+        , consistently maintaining a <Highlight>WAM above 80</Highlight> in the
+        latter half of my course.
       </p>
       <p>
-        I have a keen interest in both front-end and back-end development. I
-        enjoy creating intuitive and engaging user interfaces while also
-        designing scalable and resilient systems that can handle large-scale
-        traffic efficiently. I'm particularly passionate about system design and
+        I have a keen interest in both{' '}
+        <Highlight>front-end and back-end development</Highlight>. I enjoy
+        creating intuitive and engaging user interfaces while also designing
+        <Highlight>
+          scalable and resilient systems that can handle large-scale traffic
+        </Highlight>
+        efficiently. I'm particularly passionate about system design and
         distributed systems, focusing on solutions that ensure fault tolerance
         and make the most of available resources.
       </p>

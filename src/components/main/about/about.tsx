@@ -33,15 +33,15 @@ export default function About() {
         <Highlight>
           scalable and resilient systems that can handle large-scale traffic
         </Highlight>
-        efficiently. I'm particularly passionate about system design and
+        efficiently. I&apos;m particularly passionate about system design and
         distributed systems, focusing on solutions that ensure fault tolerance
         and make the most of available resources.
       </p>
       <p>
-        Outside of academics, I’m driven by the challenge of solving complex
-        engineering problems. I take pride in improving system performance and
-        leveraging modern technologies to build practical, scalable applications
-        that offer exceptional user experiences.
+        Outside of academics, I&apos;m driven by the challenge of solving
+        complex engineering problems. I take pride in improving system
+        performance and leveraging modern technologies to build practical,
+        scalable applications that offer exceptional user experiences.
       </p>
     </section>
   );

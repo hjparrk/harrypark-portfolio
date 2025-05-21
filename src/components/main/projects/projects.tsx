@@ -6,15 +6,37 @@ import StickyHeader from '../common/sticky-header';
 
 const projects: ProjectData[] = [
   {
+    title: 'Harry’s Timer',
+    description:
+      'Built a responsive timer app using Next.js, Tailwind css and Zustand with timer, stopwatch, and local time/date features via browser APIs; deployed on Vercel for public use.',
+    skills: ['Next.js (v15)', 'TailwindCSS', 'Zustand', 'Vercel'],
+    link: 'https://harrys-timer.com/',
+  },
+  {
+    title: 'Blockchain System (High Distinction, 100/100)',
+    description:
+      'Developed a blockchain node that functioned as both client and server, enabling real-time messaging and interoperability across a P2P network with other students’ nodes.',
+    skills: ['Python', 'Socket', 'Multi-threading', 'Distributed System'],
+    link: 'https://github.com/hjparrk/blockchain',
+  },
+  {
+    title: 'Capstone Project (High Distinction, 93/100)',
+    description:
+      'Led backend architecture for a backend team of 3 in a 7-person project; built a full-stack platform for a real client to share renovation content and cut the React frontend codebase by 30% via refactoring.',
+    skills: [
+      'JavaScript',
+      'Node.js',
+      'React',
+      'Express.js',
+      'Prisma',
+      'Jest',
+      'TailwindCSS',
+    ],
+  },
+  {
     title: 'Trecareer – Your Ultimate Job Application Tracker',
     description:
       'Trecareer is a meticulously crafted job application tracking system designed to streamline the job search process and optimise career management. Powered by Supabase on the backend and developed with cutting-edge web technologies like Next.js and TailwindCSS, Trecareer empowers users to stay organised and informed throughout their job application journey.',
-    details: [
-      'Monitor your job applications with detailed statuses, from "Not Started" to "Interview Scheduled" and beyond',
-      'Seamlessly update and manage application data with immediate feedback and error handling.',
-      'Dynamically track progress, set priorities, and manage applications all in one place.',
-      'Enjoy hassle-free account creation and secure login using popular authentication providers.',
-    ],
     skills: [
       'Next.js (v15)',
       'TailwindCSS',
@@ -29,10 +51,6 @@ const projects: ProjectData[] = [
     title: 'Coupon Issuance System',
     description:
       'Promotion Service is a coupon issuance service designed with a microservices architecture (MSA) approach. This project was initiated to gain hands-on experience by directly applying key technologies and to build a scalable and distributed system capable of handling high traffic loads.',
-    details: [
-      'Users can request coupons, and the system ensures secure and efficient coupon issuance using Kafka-based asynchronous event processing, Redis caching, and distributed locking mechanisms.',
-      'Additionally, unit testing was implemented using JUnit and Mockito, and performance testing was conducted using JMeter for evaluating the coupon issuance API.',
-    ],
     skills: ['Spring Boot', 'JPA', 'Kafka', 'Redis', 'Resilience4j', 'JMeter'],
     link: 'https://github.com/hjparrk/promotion-spring-boot',
   },
@@ -42,16 +60,6 @@ const projects: ProjectData[] = [
       'This project is a Spring Boot-based delivery service that includes RabbitMQ for order processing and SSE (Server-Sent Events) for real-time notifications. Users can place orders, and administrators can monitor order statuses in real-time.',
     skills: ['Spring Boot', 'JPA', 'RabbitMQ', 'SSE'],
     link: 'https://github.com/hjparrk/delivery-spring-boot',
-  },
-  {
-    title: 'RenoPilot Web Platform (Capstone Project)',
-    description:
-      'Developed a web platform for renovation resources using Node.js, Express, and Prisma, ensuring secure and efficient data handling.',
-    details: [
-      'Optimised code through refactoring, increasing reusability and reducing total source code length by 30%, while improving maintainability and testability.',
-      'Implemented a CI/CD pipeline in Bitbucket with automated testing, achieving 80%+ test coverage using Jest for early bug detection and system reliability.',
-    ],
-    skills: ['JavaScript', 'ReactJs', 'Node.js', 'Express', 'Prisma', 'Jest'],
   },
 ];
 

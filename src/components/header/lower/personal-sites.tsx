@@ -13,7 +13,7 @@ export default async function PersonalSites() {
       <Link href={'https://github.com/hjparrk'} target='_blank'>
         <Icons.Github className='h-6 w-6' />
       </Link>
-      <Link href={'https://linkedin.com/in/harryparrk'} target='_blank'>
+      <Link href={'https://linkedin.com/in/harry-park-swe'} target='_blank'>
         <Icons.LinkedIn className='h-6 w-6' />
       </Link>
       <ThemeToggleBtn initialTheme={theme} />

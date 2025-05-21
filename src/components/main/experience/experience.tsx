@@ -3,22 +3,40 @@ import StickyHeader from '../common/sticky-header';
 
 const experiences: ExperienceData[] = [
   {
-    duration: 'Sep — Dec 2024',
-    title: 'Software Engineer Intern • Link Australia',
-    team: 'e-Learning Platform',
+    duration: 'Sep 2024 — Jan 2025',
+    title: 'Software Engineer Intern',
+    team: 'Link Australia Intl. Student Service Centre • Remote',
     contributions: [
-      'Reduced lecture sharing time by 90% by developing an in-house e-learning platform, replacing manual link distribution with an automated system that efficiently provided students with instant access to learning materials.',
-      'Enhanced accessibility across devices by implementing a fully responsive design, ensuring seamless user experience on tablets, laptops, and other screen sizes.',
+      'Built a Learning Management System (LMS) that automated course curriculum management, mock exams, access control, and student progress tracking, streamlining weekly staff workload by over 75%.',
+      'Developed the platform with React/Typescript (frontend) and NestJS/PostgreSQL (backend), improving development speed and preventing type mismatches.',
+      'Communicated project scope, cost, and technical decisions to a non-technical PM using wireframes and user stories; iterated based on feedback through meetings on a regular basis.',
+      'Designed the system architecture and implemented jwt-based auth; evaluated and selected a cost-efficient video delivery solution with domain protection for secure, scalable, and stable content delivery.',
     ],
     skills: [
-      'NestJs',
-      'ReactJs',
-      'TypeScript',
-      'Tailwind CSS',
-      'TypeOrm',
-      'PostgreSQL',
-      'Stripe',
+      'Full-Stack Development',
+      'Stakeholder Collaboration',
+      'System Design',
     ],
+  },
+  {
+    duration: 'Mar 2021 — Dec 2022',
+    title: 'IT & Administrative Assistant',
+    team: 'Yongsan District Office, Seoul • Conscription Service (full-time)',
+    contributions: [
+      'Contributed to a 10-person vehicle registration team assisting residents, foreign nationals, and US military personnel in a high-volume district office.',
+      'Tracked quarantine compliance for 200+ inbound residents using a government-issued COVID monitoring app; ensured 98.5% compliance by resolving all breaches within hours.',
+      'Provided Korean-English interpretation and translation during vehicle registration, improving accessibility and reducing delays for non-Korean speakers.',
+    ],
+    skills: ['Operations Management', 'Communication'],
+  },
+  {
+    duration: 'Jul 2020 — Dec 2020',
+    title: 'Programming & Coding Tutor',
+    team: 'Self-Employed',
+    contributions: [
+      'Guided college students in mastering Python, Java, and core programming concepts such as logic and problem solving, resulting in all students earning an A or A+ in their programming units.',
+    ],
+    skills: ['Mentorship'],
   },
 ];
 
